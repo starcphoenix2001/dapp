@@ -1,0 +1,33 @@
+risk-analyzer/              <-- Root Folder
+├── package.json            <-- Create this file in the root
+├── index.html              <-- Create this file in the root
+├── vite.config.ts          <-- Create this file in the root
+├── tailwind.config.js      <-- Create this file in the root
+├── postcss.config.js       <-- Create this file in the root
+├── tsconfig.json           <-- Create this file in the root
+├── tsconfig.node.json      <-- Create this file in the root
+│
+└── src/                    <-- Create a folder named 'src'
+    ├── main.tsx            <-- Create this inside 'src'
+    ├── index.css           <-- Create this inside 'src'
+    ├── App.tsx             <-- Create this inside 'src'
+    │
+    ├── types/              <-- Create a folder named 'types' inside 'src'
+    │   └── ethereum.ts     <-- Create this inside 'types'
+    │
+    ├── utils/              <-- Create a folder named 'utils' inside 'src'
+    │   └── ethUtils.ts     <-- Create this inside 'utils'
+    │
+    ├── hooks/              <-- Create a folder named 'hooks' inside 'src'
+    │   └── useWallet.ts    <-- Create this inside 'hooks'
+    │
+    └── components/         <-- Create a folder named 'components' inside 'src'
+        ├── WalletButton.tsx
+        ├── SendForm.tsx
+        │
+        └── ui/             <-- Create a folder named 'ui' inside 'components'
+            ├── button.tsx
+            ├── card.tsx
+            ├── input.tsx
+            ├── label.tsx
+            └── radio-group.tsx
